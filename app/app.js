@@ -9,7 +9,7 @@ var ejs = require('ejs');
 var express = require('express')
   , routes = require('./routes');
 
-var terms = ['awesome', 'cool', 'rad', 'gnarly', 'groovy'];
+var terms = ['awesome','cool', 'rad', 'gnarly','groovy'];
 
 var t = new TwitterWorker(terms);
 
